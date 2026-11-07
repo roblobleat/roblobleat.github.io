@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141514">
+  <meta name="description" content="PLUGLAB — независимая библиотека авторских плагинов и инструментов для FL Studio. Скачивай ZIP-архивы и создавай свой звук.">
+  <title>PLUGLAB — твой звук, твои правила</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/common.js" defer></script>
+  <script src="/js/sequencer.js" defer></script>
+  <script src="/js/home.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a href="/" class="brand" aria-label="PLUGLAB — главная"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>PLUGLAB<span class="brand-dot">®</span></a>
+      <nav class="main-nav" id="main-nav" aria-label="Основная навигация">
+        <a href="/" class="active" aria-current="page">Главная</a>
+        <a href="/catalog">Каталог <span class="nav-count" data-plugin-count>00</span></a>
+        <a href="#how-it-works">Как это работает</a>
+      </nav>
+      <div class="header-actions"><span class="header-status"><span class="status-dot"></span> НЕЗАВИСИМЫЙ ЗВУК</span><a href="/catalog" class="btn btn-small btn-light">В каталог <span data-icon="arrow-up-right"></span></a><button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button></div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="tiny-cross">+</span> ИНСТРУМЕНТЫ ДЛЯ ТВОИХ ИДЕЙ</div>
+        <h1>МЕНЬШЕ<br>ПОИСКА.<br><span class="hero-last">БОЛЬШЕ<br class="mobile-only"> <span class="orange">ЗВУКА.</span></span></h1>
+        <p class="hero-description">Авторские плагины для FL Studio.<br>Без лишних шагов. Скачал, открыл — создаёшь.</p>
+        <div class="hero-buttons"><a href="/catalog" class="btn btn-orange">Ознакомиться <span data-icon="arrow-up-right"></span></a><a href="#playground" class="text-link">Сначала поиграть <span data-icon="arrow-down"></span></a></div>
+        <div class="hero-footnote"><span class="mini-wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><span>ИЗ СТУДИИ — В ТВОЮ СТУДИЮ</span></div>
+      </div>
+      <div class="hero-art" aria-label="Декоративная панель аудиопроцессора">
+        <div class="art-topline mono"><span>PLUGLAB / SOUND OBJECTS</span><span>№ 001</span></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <span class="art-coordinate mono">55° 45′ N<br>37° 37′ E</span>
+        <div class="hardware">
+          <div class="hardware-top"><span class="hardware-brand">pluglab<span>®</span></span><span class="mono">ANALOG SOUL.<br>DIGITAL HEART.</span><span class="screw"></span></div>
+          <div class="hardware-screen"><div class="screen-label mono"><span>OUTPUT / LIVE</span><span class="screen-dot"></span></div><canvas id="hero-wave" aria-hidden="true"></canvas><div class="screen-bottom mono"><span>SHAPE YOUR SOUND</span><span>48 kHz</span></div></div>
+          <div class="hardware-controls">
+            <div class="dial-group"><div class="dial dial-orange" style="--dial-angle:-32deg"><i></i></div><span class="mono">TEXTURE</span></div>
+            <div class="dial-group"><div class="dial dial-dark" style="--dial-angle:38deg"><i></i></div><span class="mono">SPACE</span></div>
+            <div class="dial-group"><div class="dial dial-silver" style="--dial-angle:12deg"><i></i></div><span class="mono">COLOUR</span></div>
+            <div class="hardware-leds"><span class="mono">SIGNAL</span><div><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="mono">ON</span></div>
+          </div>
+          <div class="hardware-bottom mono"><span>PL–01 / STUDIO SERIES</span><span>DESIGNED TO CREATE</span></div>
+          <span class="screw screw-bl"></span><span class="screw screw-br"></span>
+        </div>
+        <div class="floating-tag mono"><span class="status-dot"></span> MADE FOR YOUR NEXT TRACK</div>
+        <div class="art-bottomline mono"><span>МЕНЬШЕ РУТИНЫ → БОЛЬШЕ МУЗЫКИ</span><span>↗</span></div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Плагины, пресеты, драм-киты, проекты FL Studio"><div class="ticker-track" aria-hidden="true"><span>PLUGINS</span><b>✳</b><span>PRESETS</span><b>✳</b><span>DRUM KITS</span><b>✳</b><span>FL STUDIO PROJECTS</span><b>✳</b><span>PLUGINS</span><b>✳</b><span>PRESETS</span><b>✳</b><span>DRUM KITS</span><b>✳</b><span>FL STUDIO PROJECTS</span><b>✳</b></div></div>
+
+    <section class="playground-section shell section-space" id="playground">
+      <div class="section-heading reveal"><div><div class="eyebrow"><span class="section-number">01 /</span> НЕ ОБЯЗАТЕЛЬНО СКАЧИВАТЬ, ЧТОБЫ НАЧАТЬ</div><h2>ПОЙМАЙ РИТМ.</h2></div><p>Маленькая студия прямо в браузере.<br>Включай шаги, меняй темп. Делай по-своему.</p></div>
+      <div class="sequencer reveal" id="sequencer">
+        <div class="seq-top"><div class="seq-title"><span class="seq-logo">PL<span>—</span>16</span><div><strong>Твой первый грув</strong><span class="mono">BROWSER BEAT MACHINE</span></div></div><div class="seq-presets" aria-label="Выбрать ритм"><button class="preset active" data-preset="trap" aria-pressed="true">Trap</button><button class="preset" data-preset="house" aria-pressed="false">House</button><button class="preset" data-preset="chill" aria-pressed="false">Lo-fi</button></div><button class="icon-button" id="seq-random" aria-label="Случайный ритм" title="Случайный ритм"><span data-icon="shuffle"></span></button></div>
+        <div class="seq-scroll"><div class="seq-grid" id="seq-grid"><div class="seq-ruler"><span class="mono">TRACK / STEP</span><div id="seq-numbers"></div></div></div></div>
+        <div class="seq-bottom"><div class="transport"><button id="seq-play" class="btn btn-orange seq-play" aria-label="Воспроизвести ритм"><span data-icon="play"></span><span id="play-label">Играть</span></button><button id="seq-reset" class="icon-button" aria-label="Вернуть исходный ритм" title="Вернуть исходный ритм"><span data-icon="reset"></span></button></div><div class="seq-slider"><label for="seq-bpm" class="mono">ТЕМП <output id="bpm-value">140</output><span>BPM</span></label><input type="range" id="seq-bpm" min="70" max="180" value="140"></div><div class="seq-slider volume-slider"><label for="seq-volume" class="mono">ГРОМКОСТЬ <output id="volume-value">65%</output></label><input type="range" id="seq-volume" min="0" max="100" value="65"></div><div class="seq-status mono"><span class="status-dot"></span><span id="seq-status">ГОТОВ К ИГРЕ</span></div></div>
+      </div>
+      <div class="seq-caption"><span><span data-icon="cursor"></span> Нажимай на ячейки — собирай свой ритм</span><span class="mono">ЗВУК СИНТЕЗИРУЕТСЯ В БРАУЗЕРЕ · НАУШНИКИ РЕКОМЕНДУЮТСЯ</span></div>
+    </section>
+
+    <section class="collection-section section-space" id="collection">
+      <div class="shell"><div class="section-heading reveal"><div><div class="eyebrow"><span class="section-number">02 /</span> ПОПОЛНЯЙ СВОЙ АРСЕНАЛ</div><h2>ДЛЯ ТВОЕГО СЛЕДУЮЩЕГО ТРЕКА.</h2></div><a href="/catalog" class="text-link">Весь каталог <span data-icon="arrow-up-right"></span></a></div>
+        <div class="category-grid reveal">
+          <a class="category-card category-effect" href="/catalog?category=effects"><div class="category-top mono"><span>01 / PROCESS</span><span data-icon="arrow-up-right"></span></div><div class="category-art effect-art" aria-hidden="true"><div class="effect-pedal"><div class="pedal-screen"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="pedal-knobs"><i></i><i></i><i></i></div><span>COLOUR / 01</span></div></div><div class="category-bottom"><h3>Эффекты</h3><p>Характер, глубина и та самая деталь.</p><span class="category-tag mono">VST / VST3</span></div></a>
+          <a class="category-card category-instrument" href="/catalog?category=instruments"><div class="category-top mono"><span>02 / CREATE</span><span data-icon="arrow-up-right"></span></div><div class="category-art keys-art" aria-hidden="true"><div class="mini-keyboard"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><b></b><b></b><b></b><b></b><b></b></div></div><div class="category-bottom"><h3>Инструменты</h3><p>От первой ноты до собственной вселенной.</p><span class="category-tag mono">SYNTHS / KEYS</span></div></a>
+          <a class="category-card category-presets" href="/catalog?category=presets"><div class="category-top mono"><span>03 / EXPLORE</span><span data-icon="arrow-up-right"></span></div><div class="category-art preset-art" aria-hidden="true"><span class="preset-slip slip-back">ANALOG<br>WARMTH<br><small>002 / PAD</small></span><span class="preset-slip slip-front">MIDNIGHT<br>TEXTURES<br><small>001 / KEYS</small><i>≈≈≈≈≈</i></span></div><div class="category-bottom"><h3>Пресеты и киты</h3><p>Готовая отправная точка для новой идеи.</p><span class="category-tag mono">PRESETS / SAMPLES</span></div></a>
+        </div>
+        <div id="latest-section" class="latest-section" hidden><div class="latest-heading"><span class="eyebrow">СВЕЖИЕ РЕЛИЗЫ</span><span class="mono" id="home-catalog-stats"></span></div><div class="latest-grid" id="latest-grid"></div></div>
+      </div>
+    </section>
+
+    <section class="how-section shell section-space" id="how-it-works">
+      <div class="how-intro reveal"><div class="eyebrow"><span class="section-number">03 /</span> ОТ ИДЕИ К УСТАНОВКЕ</div><h2>ТРИ ШАГА.<br>И ТЫ В <span class="orange">ПОТОКЕ.</span></h2><p>Никаких аккаунтов и подписок.<br>Только инструменты, которые хочется открыть.</p><button class="text-link" data-open-guide>Инструкция по установке <span data-icon="arrow-up-right"></span></button></div>
+      <ol class="steps-list reveal"><li><span class="step-number mono">01</span><div><h3>Найди свой звук</h3><p>Выбери плагин в каталоге. Посмотри описание, версию и совместимость.</p></div><span data-icon="search"></span></li><li><span class="step-number mono">02</span><div><h3>Скачай одним нажатием</h3><p>Забирай ZIP-архив. Регистрация не нужна — файл сразу у тебя.</p></div><span data-icon="download"></span></li><li><span class="step-number mono">03</span><div><h3>Добавь в FL Studio</h3><p>Распакуй архив, установи плагин и обнови список в Plugin Manager.</p></div><span data-icon="sliders"></span></li></ol>
+    </section>
+
+    <section class="final-cta shell reveal"><div class="cta-pattern" aria-hidden="true"></div><div class="cta-copy"><div class="eyebrow">ТВОЯ СЛЕДУЮЩАЯ ИДЕЯ НАЧИНАЕТСЯ ЗДЕСЬ</div><h2>ДОБАВЬ ЗВУКА.</h2><p>Открой каталог. Найди то, что откликнется.</p></div><div class="cta-action"><a href="/catalog" class="btn btn-dark btn-large">Ознакомиться <span data-icon="arrow-up-right"></span></a><span class="mono"><span data-icon="zip"></span> ZIP-АРХИВЫ · СВОБОДНЫЙ ДОСТУП</span></div></section>
+  </main>
+
+  <footer class="site-footer shell"><div class="footer-top"><a href="/" class="brand"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>PLUGLAB<span class="brand-dot">®</span></a><span class="mono">INDEPENDENT TOOLS. UNLIMITED IDEAS.</span><a href="#main" class="text-link">Наверх <span data-icon="arrow-up"></span></a></div><div class="footer-bottom"><span>© <span data-year>2026</span> PLUGLAB. Сделано для тех, кто создаёт.</span><span class="footer-disclaimer">Независимый проект. Не связан с Image-Line.</span><a href="/catalog?admin=1" class="footer-admin"><span data-icon="lock"></span> Вход для автора</a></div></footer>
+
+  <dialog id="guide-dialog" class="modal guide-modal" aria-labelledby="guide-title"><div class="modal-header"><span class="eyebrow">БЫСТРЫЙ СТАРТ</span><button class="icon-button" data-close-dialog aria-label="Закрыть инструкцию"><span data-icon="close"></span></button></div><h2 id="guide-title">ДОБАВЬ В СВОЮ СТУДИЮ.</h2><p class="muted">Точные шаги зависят от плагина. Сначала прочитай инструкцию внутри архива.</p><ol class="guide-steps"><li><strong>Распакуй ZIP-архив.</strong><p>Не запускай установщик прямо из архива. Проверь формат: VST, VST3 или родной плагин FL Studio.</p></li><li><strong>Установи или скопируй файлы.</strong><p>Для установщика — запусти его и выбери папку VST. Для VST3 обычно используется <code>C:\Program Files\Common Files\VST3</code> на Windows или <code>/Library/Audio/Plug-Ins/VST3</code> на macOS. Совместимость с ОС указана в карточке.</p></li><li><strong>Обнови Plugin Manager.</strong><p>В FL Studio открой Options → Manage plugins. Проверь папку установки и нажми Find installed plugins.</p></li><li><strong>Добавь на дорожку.</strong><p>Инструмент — в Channel Rack, эффект — в слот микшера. Для пресетов и .flp следуй инструкции автора внутри архива.</p></li></ol><div class="notice"><span data-icon="info"></span><span>Скачивай только те плагины, которым доверяешь. Проверяй архив антивирусом и используй лицензионное ПО.</span></div><button class="btn btn-orange full-width" data-close-dialog>Понятно <span data-icon="check"></span></button></dialog>
+  <div class="toast-container" id="toasts" aria-live="polite" aria-atomic="false"></div>
+</body>
+</html>
